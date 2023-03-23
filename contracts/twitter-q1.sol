@@ -39,7 +39,7 @@ contract Twitter {
     function readTweets(address _user) view external returns(Tweet[] memory) {
         uint[] memory userTweetIds = users[_user].userTweets;
         Tweet[] memory userTweets = new Tweet[](userTweetIds.length);
-        for (uint i = 0; i <= userTweetIds.length; i++) {
+        for (uint i = 0; i < userTweetIds.length; i++) {
             userTweets[i] = tweets[userTweetIds[i]];
         }
         return userTweets;
