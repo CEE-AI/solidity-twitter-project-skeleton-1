@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\Enigma\\Desktop\\app.stackup.dev\\Solidity Twitter Project\\Part 1\\solidity-twitter-project-skeleton\\contracts\\twitter-q1.sol": {
+      "lastModificationDate": 1666755578536,
+      "contentHash": "6c5107fec9ed8fe63e0539c7e6c4da76",
+      "sourceName": "contracts/twitter-q1.sol",
+      "solcConfig": {
+        "version": "0.8.9",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "Twitter"
+      ]
+    }
+  }
+}
